@@ -1,7 +1,8 @@
-import 'package:flutter/material.dart';
+
 import '../../util/customWidgets.dart';
 import '../../util/searchBarItems.dart';
 import 'datatable.dart';
+import 'package:flutter/material.dart';
 
 class CategoryScreenBody extends StatefulWidget {
   @override
