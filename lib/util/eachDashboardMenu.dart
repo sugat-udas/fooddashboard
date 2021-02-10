@@ -30,13 +30,13 @@ class EachDashboardMenuItem extends StatelessWidget {
         _productControllerState.currentProductIndex == 5 &&
                 _homeControllerState.currentMenuItemIndex == index
             ? _homeControllerState.onProductToggle()
-            : _productControllerState.onAllProductMenuClick(5);
+            : _productControllerState.onEachProductMenuClick(5);
         _homeControllerState.onSelectProductMenu(4);
       },
       child: Container(
         decoration: BoxDecoration(
             color: _homeControllerState.currentMenuItemIndex == index
-                ? CustomColors.buttonGreenColor
+                ? CustomColors.greenBtn
                 : CustomColors.sideMenuColor,
             borderRadius: BorderRadius.circular(10)),
         padding: EdgeInsets.symmetric(

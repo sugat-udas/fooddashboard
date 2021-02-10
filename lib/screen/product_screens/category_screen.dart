@@ -15,7 +15,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
     return Expanded(
       child: SingleChildScrollView(
               child: Container(
-           height: Get.height-MediaQuery.of(context).padding.top-kToolbarHeight+20,
+           height: Get.height-MediaQuery.of(context).padding.top-kToolbarHeight+10,
           child: CategoryScreenBody(),
         ),
       ),

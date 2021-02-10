@@ -76,7 +76,7 @@ Widget addnewBtn({Function onPress}) {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(5.0),
       ),
-      color: CustomColors.buttonGreenColor,
+      color: CustomColors.greenBtn,
     ),
   );
 }

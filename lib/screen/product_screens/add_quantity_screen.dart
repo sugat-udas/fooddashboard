@@ -43,7 +43,7 @@ class AddQuantityScreen extends StatelessWidget {
       width: Get.width,
       padding: EdgeInsets.symmetric(
           horizontal: Responsive.isDesktop(context) ? 40 : 30, vertical: 20),
-      color: CustomColors.backgroundLightGrey,
+      color: CustomColors.borderLightGreyLineBg,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.max,
@@ -117,7 +117,7 @@ class AddQuantityScreen extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(5.0),
         ),
-        color: CustomColors.buttonGreenColor,
+        color: CustomColors.greenBtn,
       ),
     );
   }

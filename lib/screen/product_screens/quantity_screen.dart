@@ -91,8 +91,8 @@ class QuantityScreen extends StatelessWidget {
               1: FlexColumnWidth(1.8),
             },
             border: TableBorder(
-              horizontalInside: BorderSide(
-                  width: 0.5, color: CustomColors.borderDividerColor),
+              horizontalInside:
+                  BorderSide(width: 0.5, color: CustomColors.borderLightGreyLineBg),
             ),
             children: [
               TableRow(
